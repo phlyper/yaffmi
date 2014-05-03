@@ -10,8 +10,8 @@
   <AudioStreams>0</AudioStreams>
   <AudioCodec>mp3</AudioCodec>
   <AudioBitrate>256</AudioBitrate>
-  <ChannelCount>2</ChannelCount>
-  <SampleRate>44100</SampleRate>
+  <ChannelCount></ChannelCount>
+  <SampleRate></SampleRate>
   <Volume></Volume>
   <AudioFilters></AudioFilters>
   <IncludeSubtitles>false</IncludeSubtitles>

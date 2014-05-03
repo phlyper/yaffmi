@@ -22,7 +22,7 @@
   <AudioStreams>0</AudioStreams>
   <AudioCodec>mp2</AudioCodec>
   <AudioBitrate>192</AudioBitrate>
-  <ChannelCount>2</ChannelCount>
+  <ChannelCount></ChannelCount>
   <SampleRate>48000</SampleRate>
   <Volume></Volume>
   <AudioFilters></AudioFilters>
