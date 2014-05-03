@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<YaffmiPreset>
+  <GlobalParams></GlobalParams>
+  <InputParams></InputParams>
+  <OutputParams></OutputParams>
+  <FileFormat>mp3</FileFormat>
+  <FilenameExtension>mp3</FilenameExtension>
+  <IncludeVideo>false</IncludeVideo>
+  <IncludeAudio>true</IncludeAudio>
+  <AudioStreams>0</AudioStreams>
+  <AudioCodec>mp3</AudioCodec>
+  <AudioBitrate>256</AudioBitrate>
+  <ChannelCount>2</ChannelCount>
+  <SampleRate>44100</SampleRate>
+  <Volume></Volume>
+  <AudioFilters></AudioFilters>
+  <IncludeSubtitles>false</IncludeSubtitles>
+</YaffmiPreset>

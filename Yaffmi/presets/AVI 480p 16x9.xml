@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<YaffmiPreset>
+  <GlobalParams></GlobalParams>
+  <InputParams></InputParams>
+  <OutputParams></OutputParams>
+  <FileFormat>avi</FileFormat>
+  <FilenameExtension>avi</FilenameExtension>
+  <IncludeVideo>true</IncludeVideo>
+  <VideoStreams>0</VideoStreams>
+  <VideoCodec>libxvid</VideoCodec>
+  <Width>852</Width>
+  <Height>480</Height>
+  <VideoBitrate>1600</VideoBitrate>
+  <DisplayAspectRatio>16:9</DisplayAspectRatio>
+  <FrameRate>29.97</FrameRate>
+  <CropTop></CropTop>
+  <CropLeft></CropLeft>
+  <CropRight></CropRight>
+  <CropBottom></CropBottom>
+  <VideoFilters></VideoFilters>
+  <IncludeAudio>true</IncludeAudio>
+  <AudioStreams>0</AudioStreams>
+  <AudioCodec>mp3</AudioCodec>
+  <AudioBitrate>128</AudioBitrate>
+  <ChannelCount></ChannelCount>
+  <SampleRate></SampleRate>
+  <Volume></Volume>
+  <AudioFilters></AudioFilters>
+  <IncludeSubtitles>false</IncludeSubtitles>
+</YaffmiPreset>
