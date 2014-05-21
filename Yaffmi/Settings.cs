@@ -130,7 +130,10 @@ namespace Yaffmi
 		public static void Load()
 		{
 			if (!File.Exists(SettingsFile))
+			{
 				Save();
+				return;
+			}
 
 			XmlDocument document = new XmlDocument();
 			try { document.Load(SettingsFile); }
@@ -156,8 +159,11 @@ namespace Yaffmi
 			string defaultOutputFolder = settingsElement.GetChildText("DefaultOutputFolder");
 			string defaultSaveLog = settingsElement.GetChildText("DefaultSaveLog");
 
-			if (defaultOutputFolder != null)
+			if (defaultOutputFolder != null &&
+				!defaultOutputFolder.ContainsAny(Path.GetInvalidPathChars()) &&
+				Directory.Exists(defaultOutputFolder))
 				DefaultOutputFolder = defaultOutputFolder;
+
 			if (defaultSaveLog != null)
 				DefaultSaveLog = Helpers.ToBool(defaultSaveLog);
 
@@ -165,12 +171,21 @@ namespace Yaffmi
 			string ffmpegPath64 = settingsElement.GetChildText("FFmpegPath64");
 			string ffmpegVersion = settingsElement.GetChildText("FFmpegVersion");
 
-			if (ffmpegPath32 != null)
+			if (ffmpegPath32 != null &&
+				!ffmpegPath32.ContainsAny(Path.GetInvalidPathChars()) &&
+				File.Exists(ffmpegPath32))
 				FFmpegPath32 = ffmpegPath32;
-			if (ffmpegPath64 != null)
+
+			if (ffmpegPath64 != null &&
+				!ffmpegPath64.ContainsAny(Path.GetInvalidPathChars()) &&
+				File.Exists(ffmpegPath64))
 				FFmpegPath64 = ffmpegPath64;
+
 			if (ffmpegVersion != null)
 				FFmpegVersion = Helpers.ToInt(ffmpegVersion);
+
+			// Re-save in case some default values had to be used
+			Save();
 		}
 
 		public static void Save()
