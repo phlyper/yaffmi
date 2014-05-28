@@ -6,6 +6,27 @@ Yaffmi is a free, open-source (GPLv3) multimedia conversion application for Wind
 
 Pre-built Windows binary packages are available [here](https://github.com/PunMaster/yaffmi/releases).
 
+## Screenshots
+
+<a href="https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-1.png" 
+style="display: inline-block; height: 150px; width: 150px; border: 0; 
+background-position: center center; background-repeat: no-repeat; background-size: contain; 
+background-image:url(https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-1.png);">
+</a>
+&nbsp;
+<a href="https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-2.png" 
+style="display: inline-block; height: 150px; width: 150px; border: 0; 
+background-position: center center; background-repeat: no-repeat; background-size: contain; 
+background-image:url(https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-2.png);">
+</a>
+&nbsp;
+<a href="https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-3.png" 
+style="display: inline-block; height: 150px; width: 150px; border: 0; 
+background-position: center center; background-repeat: no-repeat; background-size: contain; 
+background-image:url(https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-3.png);">
+</a>
+&nbsp;
+
 ## Basic usage
 1. Open **Yaffmi** by double-clicking the file with the cactus icon. If you downloaded Yaffmi in a ZIP file, you must extract the entire contents of the ZIP first. Do not try to run Yaffmi directly from a ZIP file.
 2. Click the **Add** button at the top of the window. Select one or more files to convert, then click **Open**. You may also add files by dragging them onto the file list box in the center of the Yaffmi window.
