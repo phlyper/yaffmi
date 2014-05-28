@@ -4,7 +4,7 @@ Yaffmi is a free, open-source (GPLv3) multimedia conversion application for Wind
 
 ## Download
 
-Pre-built Windows binary packages are available at [SourceForge](https://sourceforge.net/projects/yaffmi/files/).
+Pre-built Windows binary packages are available [here](https://github.com/PunMaster/yaffmi/releases).
 
 ## Basic usage
 1. Open **Yaffmi** by double-clicking the file with the cactus icon. If you downloaded Yaffmi in a ZIP file, you must extract the entire contents of the ZIP first. Do not try to run Yaffmi directly from a ZIP file.
