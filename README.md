@@ -8,23 +8,17 @@ Pre-built Windows binary packages are available [here](https://github.com/PunMas
 
 ## Screenshots
 
-<a href="https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-1.png" 
-style="display: inline-block; height: 150px; width: 150px; border: 0; 
-background-position: center center; background-repeat: no-repeat; background-size: contain; 
-background-image:url(https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-1.png);">
-</a>
+<a href="https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-1.png">
+<img src="https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-1.png" 
+height="150" border="0"></a>
 &nbsp;
-<a href="https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-2.png" 
-style="display: inline-block; height: 150px; width: 150px; border: 0; 
-background-position: center center; background-repeat: no-repeat; background-size: contain; 
-background-image:url(https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-2.png);">
-</a>
+<a href="https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-2.png">
+<img src="https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-2.png" 
+height="150" border="0"></a>
 &nbsp;
-<a href="https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-3.png" 
-style="display: inline-block; height: 150px; width: 150px; border: 0; 
-background-position: center center; background-repeat: no-repeat; background-size: contain; 
-background-image:url(https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-3.png);">
-</a>
+<a href="https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-3.png">
+<img src="https://raw.githubusercontent.com/PunMaster/yaffmi/master/screenshots/yaffmi-screenshot-3.png" 
+height="150" border="0"></a>
 &nbsp;
 
 ## Basic usage
