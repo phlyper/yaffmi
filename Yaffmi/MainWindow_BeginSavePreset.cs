@@ -137,6 +137,9 @@ namespace Yaffmi
 				presetBox.SelectedItem = preset;
 				presetBox.EndUpdate();
 
+				saveButton.Enabled = true;
+				deleteButton.Enabled = true;
+
 				statusLabel.Text = "";
 				unsavedChanges = false;
 			};
