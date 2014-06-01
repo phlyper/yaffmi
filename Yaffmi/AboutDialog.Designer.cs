@@ -157,6 +157,7 @@
 			this.djCactusIcon.Location = new System.Drawing.Point(25, 25);
 			this.djCactusIcon.Name = "djCactusIcon";
 			this.djCactusIcon.Size = new System.Drawing.Size(200, 160);
+			this.djCactusIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
 			this.djCactusIcon.TabIndex = 0;
 			this.djCactusIcon.TabStop = false;
 			// 

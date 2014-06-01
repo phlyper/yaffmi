@@ -131,10 +131,10 @@
 			this.fileListBox.FormattingEnabled = true;
 			this.fileListBox.IntegralHeight = false;
 			this.fileListBox.ItemHeight = 16;
-			this.fileListBox.Location = new System.Drawing.Point(12, 80);
+			this.fileListBox.Location = new System.Drawing.Point(12, 90);
 			this.fileListBox.Name = "fileListBox";
 			this.fileListBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-			this.fileListBox.Size = new System.Drawing.Size(760, 245);
+			this.fileListBox.Size = new System.Drawing.Size(760, 235);
 			this.fileListBox.TabIndex = 6;
 			this.fileListBox.DragDrop += new System.Windows.Forms.DragEventHandler(this.fileListBox_DragDrop);
 			this.fileListBox.DragEnter += new System.Windows.Forms.DragEventHandler(this.fileListBox_DragEnter);
@@ -272,7 +272,7 @@
 			// saveLogCheck
 			// 
 			this.saveLogCheck.AutoSize = true;
-			this.saveLogCheck.Location = new System.Drawing.Point(15, 249);
+			this.saveLogCheck.Location = new System.Drawing.Point(15, 250);
 			this.saveLogCheck.Name = "saveLogCheck";
 			this.saveLogCheck.Size = new System.Drawing.Size(88, 20);
 			this.saveLogCheck.TabIndex = 16;
@@ -282,7 +282,7 @@
 			// subtitlesStreamsLabel
 			// 
 			this.subtitlesStreamsLabel.AutoSize = true;
-			this.subtitlesStreamsLabel.Location = new System.Drawing.Point(440, 42);
+			this.subtitlesStreamsLabel.Location = new System.Drawing.Point(443, 42);
 			this.subtitlesStreamsLabel.Name = "subtitlesStreamsLabel";
 			this.subtitlesStreamsLabel.Size = new System.Drawing.Size(94, 16);
 			this.subtitlesStreamsLabel.TabIndex = 11;
@@ -308,7 +308,7 @@
 			// 
 			// subtitlesStreamsBox
 			// 
-			this.subtitlesStreamsBox.Location = new System.Drawing.Point(541, 39);
+			this.subtitlesStreamsBox.Location = new System.Drawing.Point(547, 39);
 			this.subtitlesStreamsBox.Name = "subtitlesStreamsBox";
 			this.subtitlesStreamsBox.Size = new System.Drawing.Size(80, 20);
 			this.subtitlesStreamsBox.TabIndex = 12;
@@ -319,7 +319,7 @@
 			this.includeSubtitlesCheck.AutoSize = true;
 			this.includeSubtitlesCheck.Checked = true;
 			this.includeSubtitlesCheck.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.includeSubtitlesCheck.Location = new System.Drawing.Point(424, 13);
+			this.includeSubtitlesCheck.Location = new System.Drawing.Point(427, 13);
 			this.includeSubtitlesCheck.Name = "includeSubtitlesCheck";
 			this.includeSubtitlesCheck.Size = new System.Drawing.Size(111, 20);
 			this.includeSubtitlesCheck.TabIndex = 10;
@@ -329,7 +329,7 @@
 			// 
 			// audioStreamsBox
 			// 
-			this.audioStreamsBox.Location = new System.Drawing.Point(313, 99);
+			this.audioStreamsBox.Location = new System.Drawing.Point(316, 99);
 			this.audioStreamsBox.Name = "audioStreamsBox";
 			this.audioStreamsBox.Size = new System.Drawing.Size(80, 20);
 			this.audioStreamsBox.TabIndex = 9;
@@ -337,7 +337,7 @@
 			// 
 			// videoStreamsBox
 			// 
-			this.videoStreamsBox.Location = new System.Drawing.Point(313, 39);
+			this.videoStreamsBox.Location = new System.Drawing.Point(316, 39);
 			this.videoStreamsBox.Name = "videoStreamsBox";
 			this.videoStreamsBox.Size = new System.Drawing.Size(80, 20);
 			this.videoStreamsBox.TabIndex = 6;
@@ -362,9 +362,9 @@
 			// 
 			// browseButton
 			// 
-			this.browseButton.Location = new System.Drawing.Point(442, 218);
+			this.browseButton.Location = new System.Drawing.Point(442, 220);
 			this.browseButton.Name = "browseButton";
-			this.browseButton.Size = new System.Drawing.Size(75, 25);
+			this.browseButton.Size = new System.Drawing.Size(75, 26);
 			this.browseButton.TabIndex = 15;
 			this.browseButton.Text = "Browse...";
 			this.browseButton.UseVisualStyleBackColor = true;
@@ -915,9 +915,10 @@
 			this.aboutButton.Image = global::Yaffmi.Properties.Resources.aboutIcon;
 			this.aboutButton.Location = new System.Drawing.Point(682, 12);
 			this.aboutButton.Name = "aboutButton";
-			this.aboutButton.Size = new System.Drawing.Size(90, 60);
+			this.aboutButton.Size = new System.Drawing.Size(90, 70);
 			this.aboutButton.TabIndex = 5;
 			this.aboutButton.Text = "About Yaffmi";
+			this.aboutButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
 			this.aboutButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.aboutButton.UseVisualStyleBackColor = true;
 			this.aboutButton.Click += new System.EventHandler(this.aboutButton_Click);
@@ -928,9 +929,10 @@
 			this.settingsButton.Image = global::Yaffmi.Properties.Resources.settingsIcon;
 			this.settingsButton.Location = new System.Drawing.Point(586, 12);
 			this.settingsButton.Name = "settingsButton";
-			this.settingsButton.Size = new System.Drawing.Size(90, 60);
+			this.settingsButton.Size = new System.Drawing.Size(90, 70);
 			this.settingsButton.TabIndex = 4;
 			this.settingsButton.Text = "Settings...";
+			this.settingsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
 			this.settingsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.settingsButton.UseVisualStyleBackColor = true;
 			this.settingsButton.Click += new System.EventHandler(this.settingsButton_Click);
@@ -940,9 +942,10 @@
 			this.convertButton.Image = global::Yaffmi.Properties.Resources.convertIcon;
 			this.convertButton.Location = new System.Drawing.Point(320, 12);
 			this.convertButton.Name = "convertButton";
-			this.convertButton.Size = new System.Drawing.Size(90, 60);
+			this.convertButton.Size = new System.Drawing.Size(90, 70);
 			this.convertButton.TabIndex = 3;
 			this.convertButton.Text = "Convert";
+			this.convertButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
 			this.convertButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.convertButton.UseVisualStyleBackColor = true;
 			this.convertButton.Click += new System.EventHandler(this.convertButton_Click);
@@ -952,9 +955,10 @@
 			this.clearListButton.Image = global::Yaffmi.Properties.Resources.clearListIcon;
 			this.clearListButton.Location = new System.Drawing.Point(204, 12);
 			this.clearListButton.Name = "clearListButton";
-			this.clearListButton.Size = new System.Drawing.Size(90, 60);
+			this.clearListButton.Size = new System.Drawing.Size(90, 70);
 			this.clearListButton.TabIndex = 2;
 			this.clearListButton.Text = "Clear List";
+			this.clearListButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
 			this.clearListButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.clearListButton.UseVisualStyleBackColor = true;
 			this.clearListButton.Click += new System.EventHandler(this.clearListButton_Click);
@@ -964,9 +968,10 @@
 			this.removeItemButton.Image = global::Yaffmi.Properties.Resources.removeItemIcon;
 			this.removeItemButton.Location = new System.Drawing.Point(108, 12);
 			this.removeItemButton.Name = "removeItemButton";
-			this.removeItemButton.Size = new System.Drawing.Size(90, 60);
+			this.removeItemButton.Size = new System.Drawing.Size(90, 70);
 			this.removeItemButton.TabIndex = 1;
 			this.removeItemButton.Text = "Remove";
+			this.removeItemButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
 			this.removeItemButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.removeItemButton.UseVisualStyleBackColor = true;
 			this.removeItemButton.Click += new System.EventHandler(this.removeItemButton_Click);
@@ -976,9 +981,10 @@
 			this.addItemButton.Image = global::Yaffmi.Properties.Resources.addItemIcon;
 			this.addItemButton.Location = new System.Drawing.Point(12, 12);
 			this.addItemButton.Name = "addItemButton";
-			this.addItemButton.Size = new System.Drawing.Size(90, 60);
+			this.addItemButton.Size = new System.Drawing.Size(90, 70);
 			this.addItemButton.TabIndex = 0;
 			this.addItemButton.Text = "Add...";
+			this.addItemButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
 			this.addItemButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.addItemButton.UseVisualStyleBackColor = true;
 			this.addItemButton.Click += new System.EventHandler(this.addItemButton_Click);

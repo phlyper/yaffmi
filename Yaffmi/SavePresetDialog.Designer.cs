@@ -41,6 +41,7 @@
 			this.iconImage.Location = new System.Drawing.Point(16, 16);
 			this.iconImage.Name = "iconImage";
 			this.iconImage.Size = new System.Drawing.Size(32, 32);
+			this.iconImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
 			this.iconImage.TabIndex = 0;
 			this.iconImage.TabStop = false;
 			// 

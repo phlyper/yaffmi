@@ -149,9 +149,9 @@
 			// 
 			// defaultOutputFolderBrowseButton
 			// 
-			this.defaultOutputFolderBrowseButton.Location = new System.Drawing.Point(325, 35);
+			this.defaultOutputFolderBrowseButton.Location = new System.Drawing.Point(325, 37);
 			this.defaultOutputFolderBrowseButton.Name = "defaultOutputFolderBrowseButton";
-			this.defaultOutputFolderBrowseButton.Size = new System.Drawing.Size(75, 25);
+			this.defaultOutputFolderBrowseButton.Size = new System.Drawing.Size(75, 26);
 			this.defaultOutputFolderBrowseButton.TabIndex = 2;
 			this.defaultOutputFolderBrowseButton.Text = "Browse...";
 			this.defaultOutputFolderBrowseButton.UseVisualStyleBackColor = true;
@@ -214,9 +214,9 @@
 			// 
 			// ffmpegPath64BrowseButton
 			// 
-			this.ffmpegPath64BrowseButton.Location = new System.Drawing.Point(325, 88);
+			this.ffmpegPath64BrowseButton.Location = new System.Drawing.Point(325, 90);
 			this.ffmpegPath64BrowseButton.Name = "ffmpegPath64BrowseButton";
-			this.ffmpegPath64BrowseButton.Size = new System.Drawing.Size(75, 25);
+			this.ffmpegPath64BrowseButton.Size = new System.Drawing.Size(75, 26);
 			this.ffmpegPath64BrowseButton.TabIndex = 5;
 			this.ffmpegPath64BrowseButton.Text = "Browse...";
 			this.ffmpegPath64BrowseButton.UseVisualStyleBackColor = true;
@@ -240,9 +240,9 @@
 			// 
 			// ffmpegPath32BrowseButton
 			// 
-			this.ffmpegPath32BrowseButton.Location = new System.Drawing.Point(325, 35);
+			this.ffmpegPath32BrowseButton.Location = new System.Drawing.Point(325, 37);
 			this.ffmpegPath32BrowseButton.Name = "ffmpegPath32BrowseButton";
-			this.ffmpegPath32BrowseButton.Size = new System.Drawing.Size(75, 25);
+			this.ffmpegPath32BrowseButton.Size = new System.Drawing.Size(75, 26);
 			this.ffmpegPath32BrowseButton.TabIndex = 2;
 			this.ffmpegPath32BrowseButton.Text = "Browse...";
 			this.ffmpegPath32BrowseButton.UseVisualStyleBackColor = true;
